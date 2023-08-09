@@ -1,0 +1,46 @@
+/* NAVBAR */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#brand-logo {
+    width: 150px;
+}
+
+.carousel {
+    z-index: 0;
+    width: 100%;
+}
+
+.carousel img {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.hero {
+    z-index: 9;
+    display: block;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+
+.hero h2, .hero p {
+    text-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
